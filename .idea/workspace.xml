@@ -9,7 +9,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8d4bb8c-8aac-4103-8def-682046724d9d" name="Changes" comment="" />
+    <list default="true" id="d8d4bb8c-8aac-4103-8def-682046724d9d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/608aa4e0-6094-4c75-8c0f-6a4f93c3b9e4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/608aa4e0-6094-4c75-8c0f-6a4f93c3b9e4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/JPA_1_0_JPA_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/controller/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/controller/UsersController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/source/AppInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/source/AppInit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/pages/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/pages/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/pages/users.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/pages/users.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +34,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -35,6 +48,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="27UPuolBREiNaIfpC6OVg98R0Kq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -46,7 +60,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/web" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.34712642" />
   </component>
@@ -253,12 +267,30 @@
       <workItem from="1649405287616" duration="4379000" />
       <workItem from="1649506320849" duration="10680000" />
       <workItem from="1649608624676" duration="5897000" />
-      <workItem from="1649669060504" duration="4707000" />
+      <workItem from="1649669060504" duration="7149000" />
+      <workItem from="1649855181104" duration="95000" />
+      <workItem from="1649855746717" duration="173000" />
+      <workItem from="1649856209184" duration="2174000" />
+      <workItem from="1649858853436" duration="6932000" />
+      <workItem from="1649933722034" duration="1204000" />
+      <workItem from="1649940985353" duration="602000" />
+      <workItem from="1650283335562" duration="6132000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -270,7 +302,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/web/controller/UsersController.java</url>
-          <line>56</line>
+          <line>55</line>
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -285,12 +317,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/web/controller/UsersController.java</url>
-          <line>54</line>
+          <line>53</line>
           <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/web/controller/UsersController.java</url>
-          <line>53</line>
+          <line>52</line>
           <properties class="web.controller.UsersController" method="delete">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />

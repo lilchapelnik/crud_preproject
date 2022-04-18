@@ -7,7 +7,7 @@
 <body>
 
 
-<form th:method="post" th:action="@{/edit/{id}(id=${user.getId()})}" th:object="${user}">
+<form th:method="put" th:action="@{/edit/{id}(id=${user.getId()})}" th:object="${user}">
     <label for="name"> name:       </label>
     <input type="text" th:field="*{name}" id="name"/>
     <br>

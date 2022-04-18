@@ -8,7 +8,6 @@ import org.springframework.web.servlet.ModelAndView;
 import web.model.User;
 import web.service.UserService;
 
-import javax.jws.WebParam;
 
 
 @Controller
@@ -32,7 +31,7 @@ public class UsersController {
         return modelAndView;
     }
 
-    @RequestMapping(value = "/edit/{id}", method = RequestMethod.GET)
+    @GetMapping(value = "/edit/{id}")
     public ModelAndView edit(@PathVariable(name = "id")int id,@ModelAttribute("user") User user) {
         user = userService.getById(id);
         ModelAndView modelAndView = new ModelAndView();
@@ -40,7 +39,7 @@ public class UsersController {
         modelAndView.addObject("user", user);
         return modelAndView;
     }
-    @RequestMapping(value = "/edit/{id}", method = RequestMethod.POST)
+    @PutMapping(value = "/edit/{id}")
     public ModelAndView editUser(@PathVariable(name = "id")int id,@ModelAttribute("user") User user) {
         ModelAndView modelAndView = new ModelAndView();
         modelAndView.setViewName("redirect:/");
@@ -50,7 +49,7 @@ public class UsersController {
 
 
 
-    @RequestMapping(value = "/delete/{id}", method = RequestMethod.POST)
+    @DeleteMapping(value = "/delete/{id}")
     public ModelAndView delete(@PathVariable(name = "id")int id) {
         ModelAndView modelAndView = new ModelAndView();
         modelAndView.setViewName("redirect:/");
@@ -58,7 +57,7 @@ public class UsersController {
         return modelAndView;
     }
 
-    @RequestMapping(value = "/add", method = RequestMethod.POST)
+    @PostMapping(value = "/add")
     public ModelAndView add(@ModelAttribute(name = "name") String name, @ModelAttribute(name = "lastname")String lastname) {
         userService.add(new User(0,name, lastname));
         ModelAndView modelAndView = new ModelAndView();
